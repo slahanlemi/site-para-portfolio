@@ -17,3 +17,8 @@ Você pode ver o site diretamente [clicando aqui]([#](https://slahanlemi.github.
 
 ## 👩‍💻 Desenvolvido por
 Milena Augusto. 
+
+
+📬 Contato
+Email: augustomilenaa@gmail.com
+LinkedIn: linkedin.com/in/milenaaugusto

@@ -1,24 +1,28 @@
+/* Resetando margens e preenchimentos padrão */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
-body{
+/* Configuração do corpo da página */
+body {
     background-color: black;
     height: 100vh;
 }
-
+/* Estilização do cabeçalho */
 header {
-    padding: 20px; // espaço na inicial inteira do header
+    padding: 20px;
+   
 }
 
-// espaçamento da logo
+/* Estilização da logo */
 .logo {
-    margin-left: 40px 4%; // esquerda
-    margin-right: 40px 4%; // direita
+    margin-left: 40px 4%;
+    /* esquerda */
+    margin-right: 40px 4%;
+    /* direita*/
 }
 
 .logo img {
@@ -26,26 +30,28 @@ header {
     height: 125px;
 }
 
-// espaçamento dos menus
+/* Estilização do menu de navegação */
 .menu-desktop ul {
-    padding-left: 20px; // esquerda dos menus
+    padding-left: 20px;
+    /* // esquerda dos menus */
 }
 
 .menu-desktop li {
-    margin-right: 20px; // espaço entre os itens
+    margin-right: 20px;
+    /* // espaço entre os itens */
 }
 
-// espaço do botão pra contato
+/* Estilização do botão de contato */
 .btn-contato {
     margin-top: 20px; // espaço em cima do botão de contato 
 }
 
-.flex{
+.flex {
     display: flex;
 
 }
 
- .btn-contato button{
+.btn-contato button {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
@@ -54,59 +60,63 @@ header {
     border-radius: 30px;
     cursor: pointer;
     transition: .2s;
-    
+
 }
 
-h2.titulo{
+/* Estilização do título principal */
+h2.titulo {
     color: #fff;
     font-size: 38px;
     text-align: center;
 }
 
- button:hover{
+button:hover {
     box-shadow: 0px 0px 8px #185874;
     transform: scale(1.05);
 }
 
+/* Configuração da interface do cabeçalho */
 
-
-header > .interface{
+header>.interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
-header a{
+/* Estilização dos links do cabeçalho */
+header a {
     color: #554e4e;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
 }
-header a:hover{
+
+header a:hover {
     color: #fff;
     transform: scale(1.09);
 }
-header nav ul{
+/* Listagem de navegação */
+header nav ul {
     list-style-type: none;
 }
-header nav ul li{
+
+header nav ul li {
     display: inline-block;
     padding: 0 40px;
 }
 
+/* Configuração do topo do site */
 
-
-section.topo-do-site{
+section.topo-do-site {
     padding: 40px 4%;
 }
 
-    section.topo-do-site.flex{
-        align-items: center;
-        justify-content: center;
-        gap: 90px;
-    }
+section.topo-do-site.flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
 
-.topo-do-site h1{
+.topo-do-site h1 {
     color: #fff;
     font-size: 45px;
 }
@@ -115,14 +125,14 @@ section.topo-do-site{
 .img-topo-site img {
     max-width: 100%;
     height: auto;
-    width: 1280px; 
+    width: 1280px;
 }
 
-.topo-do-site .txt .topo-do-site h1 span{
+.topo-do-site .txt .topo-do-site h1 span {
     color: #247ba0;
 }
 
-.topo-do-site .txt-topo-site p{
+.topo-do-site .txt-topo-site p {
     color: #fff;
     margin: 40px 0;
 }
@@ -132,32 +142,37 @@ section.topo-do-site{
     animation: flutuar 2s ease-in-out infinite alternate;
 }
 
-@keyframes flutuar{
-    0%{
+/* Animação de flutuação */
+
+@keyframes flutuar {
+    0% {
         top: 0;
 
     }
-    100%{
+
+    100% {
         top: 30px;
     }
 }
 
+/* Estilização da seção de habilidades e educação */
+
 .habilidades-educação {
     display: flex;
     flex-direction: column;
-    align-items: center; 
-    justify-content: center; 
+    align-items: center;
+    justify-content: center;
     padding: 40px 4%;
-    min-height: 100vh; 
+    min-height: 100vh;
     box-sizing: border-box;
 }
 
 .habilidades-educação .flex {
     display: flex;
-    justify-content: center; 
-    gap: 45px; 
-    flex-wrap: wrap; 
-    width: 100%; 
+    justify-content: center;
+    gap: 45px;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .habilidades-educação .habilidades-box {
@@ -167,7 +182,8 @@ section.topo-do-site{
     margin-top: 45px;
     transition: .2s;
     width: 100%;
-    max-width: 320px; /* Limita a largura das caixas */
+    max-width: 320px;
+    /* Limita a largura das caixas */
     text-align: center;
 }
 
@@ -192,52 +208,58 @@ section.topo-do-site{
 }
 
 .habilidades-educação .habilidades-box ul li {
-    margin-bottom: 13px; 
-}
-.habilidades-educação .habilidades-box:last-child ul {
-    list-style-type: none; 
-    padding-left: 0; 
+    margin-bottom: 13px;
 }
 
-section .Sobre-mim{
+.habilidades-educação .habilidades-box:last-child ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Estilização da seção Sobre Mim */
+
+section .Sobre-mim {
     padding: 60px 4%;
 }
 
-section.Sobre-mim .flex{
+section.Sobre-mim .flex {
     align-items: center;
     gap: 80px;
 }
 
 .img-sobre img {
-    width: 400px; 
-    height: auto; 
+    width: 400px;
+    height: auto;
     border-radius: 15px;
     margin-left: 300px;
 }
-.Sobre-mim .txt-sobre{
+
+.Sobre-mim .txt-sobre {
     color: #fff;
     max-width: 800px;
 
 }
 
-.Sobre-mim .txt-sobre h2{
+.Sobre-mim .txt-sobre h2 {
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 30px;
 
 }
 
-.Sobre-mim .txt-sobre h2 span{
+.Sobre-mim .txt-sobre h2 span {
     color: #247ba0;
     display: block;
 }
 
-.Sobre-mim .txt-sobre p{
+.Sobre-mim .txt-sobre p {
     margin: 20px 0;
     text-align: justify;
 }
 
-.Sobre-mim .txt-sobre .btn-social button{
+/* Estilização dos botões de redes sociais */
+
+.btn-social button {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -250,22 +272,24 @@ section.Sobre-mim .flex{
 
 }
 
-section.portfolio{
+/* Estilização da seção de portfólio */
+
+section.portfolio {
     padding: 80px 4%;
     box-shadow: 0 0 40px 10px #292929;
     margin-top: 60px;
 }
 
-section.portfolio .flex{
+section.portfolio .flex {
     justify-content: space-around;
 }
 
-.portfolio h2{
+.portfolio h2 {
     margin-bottom: 60px;
 }
 
 
-.img-port{
+.img-port {
     width: 360px;
     height: 460px;
     background-size: cover;
@@ -277,12 +301,12 @@ section.portfolio .flex{
 
 }
 
-.img-port:hover{
+.img-port:hover {
     background-position: 100% 100%;
 
 }
 
-.overlay{
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -300,7 +324,71 @@ section.portfolio .flex{
     transition: .5s;
 }
 
-.overlay:hover{
+.overlay:hover {
     opacity: 1;
 }
 
+/* Estilização do rodapé */
+
+footer {
+    padding: 60px 4%;
+    box-shadow: 0 0 40px 10px #292929;
+}
+
+.logo-footer img {
+    width: 150px;
+    height: auto;
+}
+
+footer .flex {
+    justify-content: space-between;
+}
+
+footer .line-footer {
+    padding: 20px 0;
+}
+
+.borda{
+    border-top: 2px solid #247ba0;
+}
+
+footer .line-footer p i {
+    color: #247ba0;
+    font-size: 22px;
+}
+
+footer .line-footer p a {
+    color: #fff;
+}
+
+ 
+/* aumentando a distancia do texto do email pra logo e mantendo a mesma cor do link */
+
+.line-footer i {
+    margin-right: 8px; /* distancia do email pro envelope */
+    color: #fff; /* manter a cor branca do link */
+}
+/* retirando sublinhado do email e alinhando verticalmente com a logo do canto */
+
+.line-footer.borda a {
+  text-decoration: none;
+  color: #fff;
+  vertical-align: middle;
+}
+/* estilizando ícone e alinhando ao texto */
+.line-footer.borda i {
+  margin-right: 8px;
+  vertical-align: middle;
+  color: #fff;
+}
+
+
+footer .logo-footer img{
+    width: 150px;
+    height: auto;
+    margin: 0 15px;
+}
+
+footer .logo-footer img :first-child{
+    margin-right: 20px;
+}

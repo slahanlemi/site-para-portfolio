@@ -20,5 +20,5 @@ Milena Augusto.
 
 
 ## 📬 Contato
-Email: augustomilenaa@gmail.com
-LinkedIn: linkedin.com/in/milenaaugusto
+- Email: augustomilenaa@gmail.com
+- LinkedIn: linkedin.com/in/milenaaugusto
